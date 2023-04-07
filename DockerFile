@@ -1,4 +1,4 @@
-FROM openjdk:1. 8
+FROM openjdk:1.8
 EXPOSE 8080
 ADD target/demo2-0.0.1-SNAPSHOT.jar spring-boot-docker.jar
-ENTRYPOINT ["java","-jar","/spring-boot-dockerjar"]
+ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"]
